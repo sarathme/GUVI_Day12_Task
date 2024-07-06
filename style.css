@@ -259,8 +259,12 @@ footer {
   html {
     font-size: 50%;
   }
+
+  .links-block {
+    font-size: 1.4rem;
+  }
   .material-symbols-outlined {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 }
 
@@ -268,10 +272,13 @@ footer {
   html {
     font-size: 40%;
   }
-  .links-block {
-    width: 95%;
 
-    font-size: 1rem;
+  .links-block {
+    width: 90%;
+    font-size: 1.6rem;
+  }
+  .material-symbols-outlined {
+    font-size: 2rem;
   }
 }
 
@@ -292,7 +299,7 @@ footer {
     gap: 1rem;
   }
   .links-block {
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 
   .content-box {
@@ -327,7 +334,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   html {
-    font-size: 30%;
+    font-size: 50%;
   }
 
   .about-block {
@@ -338,6 +345,9 @@ footer {
     justify-content: center;
     gap: 1rem;
     flex: 1 0 auto;
+  }
+  .links-block {
+    font-size: 1.6rem;
   }
 
   .awards-cards {
