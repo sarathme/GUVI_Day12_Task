@@ -8,6 +8,7 @@
 
 html {
   font-family: "Noto Sans", sans-serif;
+  font-size: 62.5%;
 }
 
 ul {
@@ -42,33 +43,34 @@ header {
 }
 
 .navbar-link {
-  margin-right: 20px;
+  margin-right: 2rem;
   color: #fff;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .hero {
   height: 70%;
   text-align: center;
-  padding: 30px;
+  padding: 3rem;
 }
 
 .hero h3 {
+  font-size: 1.9rem;
   font-weight: 300;
 }
 
 .text-primary {
-  font-size: 75px;
+  font-size: 7.5rem;
   font-weight: 400;
 }
 
 .about {
-  height: 700px;
+  height: 70rem;
 }
 
 .about-block {
-  padding: 60px 0;
+  padding: 6rem 0;
   height: 90%;
   display: flex;
   justify-content: space-between;
@@ -76,7 +78,7 @@ header {
 
 .content-box {
   width: 50%;
-  margin-right: 40px;
+  margin-right: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -87,7 +89,7 @@ header {
 }
 
 .about-content p {
-  font-size: 18px;
+  font-size: 1.8rem;
   width: 90%;
 }
 
@@ -98,16 +100,16 @@ header {
 
 .heading-secondary {
   font-weight: 600;
-  font-size: 30px;
-  margin-bottom: 10px;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .quote {
   background-color: #1b1c1d;
   text-align: center;
-  height: 100px;
+  height: 10rem;
   color: #fff;
-  padding: 30px 0;
+  padding: 3rem 0;
 }
 
 .links-block {
@@ -115,16 +117,17 @@ header {
   width: 75%;
   margin: 0 auto;
   justify-content: center;
-  gap: 10px;
+  gap: 1rem;
+  font-size: 1.4rem;
 }
 .about-link {
   display: flex;
-  gap: 8px;
-  padding: 10px;
+  gap: 0.8rem;
+  padding: 1rem;
   text-align: center;
   justify-content: center;
-  min-width: 110px;
-  border-radius: 4px;
+  min-width: 11rem;
+  border-radius: 0.4rem;
   font-weight: 600;
   color: #fff;
 }
@@ -141,30 +144,30 @@ header {
 
 .awards-cards {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .awards-card {
   border: 2px solid grey;
   width: 20%;
   flex-grow: 1;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .awards-card h3 {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
 }
 
 .awards-card h4 {
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 600;
   color: grey;
   margin-bottom: 5px;
 }
 .awards-card p {
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 600;
   color: grey;
 }
@@ -172,12 +175,13 @@ header {
 .poetry {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 2rem;
+  font-size: 1.6rem;
 }
 
 .poetry-list {
   list-style: disc;
-  padding: 8px 20px;
+  padding: 0.8rem 2rem;
 }
 
 footer {
@@ -187,11 +191,11 @@ footer {
 .footer {
   display: flex;
   justify-content: center;
-  height: 200px;
+  height: 20rem;
   align-items: center;
   color: #fff;
-  gap: 10px;
-  font-size: 14px;
+  gap: 1rem;
+  font-size: 1.4rem;
   font-weight: 200;
 }
 
@@ -205,11 +209,11 @@ footer {
 }
 
 .heading {
-  font-size: 20px;
+  font-size: 2rem;
   display: flex;
   align-items: center;
-  gap: 15px;
-  margin-bottom: 20px;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .heading .line {
@@ -226,7 +230,7 @@ footer {
 .footer div {
   width: 33%;
   height: 90%;
-  padding: 30px;
+  padding: 3rem;
 }
 
 .footer div:not(:last-child) {
@@ -234,6 +238,113 @@ footer {
 }
 
 .footer h3 {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 90%;
+  }
+  .links-block {
+    width: 75%;
+    gap: 1rem;
+  }
+  .material-symbols-outlined {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+  .material-symbols-outlined {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  html {
+    font-size: 40%;
+  }
+  .links-block {
+    width: 95%;
+
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 784px) {
+  html {
+    font-size: 35%;
+  }
+
+  .section {
+    width: 100%;
+  }
+  .about {
+    height: auto;
+  }
+
+  .about-block {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .links-block {
+    font-size: 1rem;
+  }
+
+  .content-box {
+    justify-content: center;
+    gap: 1rem;
+    flex: 0 0 auto;
+  }
+  .image {
+    order: -1;
+    flex: 1 0 40rem;
+
+    height: auto;
+  }
+  .poetry {
+    flex-wrap: wrap;
+  }
+  .poetry-card {
+    flex: 1 0 42rem;
+  }
+
+  .footer {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .disclaimer,
+  .tech,
+  .author {
+    flex: 1 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 30%;
+  }
+
+  .about-block {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .content-box {
+    justify-content: center;
+    gap: 1rem;
+    flex: 1 0 auto;
+  }
+
+  .awards-cards {
+    flex-wrap: wrap;
+  }
+
+  .awards-card {
+    flex: 1 0 43rem;
+  }
 }
